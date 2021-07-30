@@ -40,6 +40,7 @@ const seedProds = [
         price: 40
     }
 ]
+// db.Product.ensureIndex({name:1},{unique: true, dropDups: true})
 
 Product.insertMany(seedProds)
 .then(res => console.log(res)
