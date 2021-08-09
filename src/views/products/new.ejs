@@ -1,5 +1,4 @@
-<%- include('layouts/boilerplate')%>
-<h1>Add a product</h1>
+<% layout('products/layouts/boilerplate')-%><h1>Add a product</h1>
 <form action="/products" method="POST">
     <label for="name">Product name</label>
     <input type="text" name="name" id="name" placeholder="product name">
